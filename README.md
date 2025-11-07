@@ -1,8 +1,10 @@
 # Personal-dataset-project
-This project analyse the evolution of a person's vote on the political spectrum. It takes the form of a umerical value associated with a political party aver different elections in order to observe changes.
-# Study of a population’s confidence in its government
+This project is on the last French legislative elections, in 2024. 
+This data comes from the website data.gouv.fr. 
+Te subject of voting in legislative elections is relevant because the French political situation is currently unstable, and the probability of the National Assembly being dissolved, which would lead to new legislative elections, is high.
+
+# study of participation in the 2024 legislative elections
 
 Questions: 
-- Do the confidence levels differ based on the type of country/regime?
-- Is there a relationship between the level of confidence in the legal system and in the local government, across many countries?  
-- Do confidence levels differ depending on people’s characteristics?
+- What is the voter turnout for the 2024 French legislative elections
+- Does this rate vary by department or region?
