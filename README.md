@@ -6,5 +6,9 @@ Te subject of voting in legislative elections is relevant because the French pol
 # study of participation in the 2024 legislative elections
 
 Questions: 
-- What is the voter turnout for the 2024 French legislative elections
-- Does this rate vary by department or region?
+- What is the voter turnout for the 2024 French legislative elections? 
+- Does the type of vote vary by department based on the number of people registered? 
+
+# Visualizations: 
+
+<img width="957" height="475" alt="image" src="https://github.com/user-attachments/assets/5bd7249c-bebf-4aec-98d7-f7175c01db54" />
