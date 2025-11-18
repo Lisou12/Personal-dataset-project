@@ -10,6 +10,8 @@ Questions:
 # Data Process
 This data comes from the website data.gouv.fr. 
 
+(data processing: numerical data)
+
 # Visualizations: 
 This first visualization is an histogram representing the proportions of blank, invalid, and valid votes, as well as abstentions, among registered voters in each department of the Paris region. The departments are ranked in descending order of the number of registered voters to determine if there is a trend between the number of registered voters and the proportions of each type of vote.
 Unfortunately, we can not observed any trend in this visualization meaning the number of registered voters does not impact the proportions of each type of vote.
