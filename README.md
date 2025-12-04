@@ -26,12 +26,12 @@ The visualization shows that the percentage of valid votes remains relatively st
 
 To further explore the relationship between electoral participation variables, I created a scatterplot matrix comparing registered voters, actual voters, and valid votes. The strong positive linear patterns observed across all pairwise combinations indicate that these variables are highly correlated with one another. As a result, applying a multiple regression model with these variables as predictors would not be appropriate, since their strong interdependence would lead to multicollinearity issues. 
 
-<img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/ec3352f4-b464-4632-86c8-94579f5fe4ac" />
+<img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/313bdf5e-8468-4a3c-b5b6-f4f6fa00698d" />
 
 
 To adress the strong multocollinearity among the previous variables, I shifted to proportional variables. The objective was to see if using proportions would remove the strong linear dependence observed previously. However, the resulting scatterplot matrix shows that the strong positive linear patterns are no longer present. Instead, the plots display a general lack of clear correlation between the proportional variables. In conclusion, the types of votes, as proportions, tend to vary independently of the electorate's size. 
 
-<img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/bd697fad-f1d9-4417-ae66-36c7a6294ea5" />
+<img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/af196147-aa4e-45e4-b13b-c98b0be9f4ab" />
 
 
 
