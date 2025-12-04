@@ -3,7 +3,7 @@ This project is on the voting data of the last French legislative elections, in 
 
 # Motivation
 The political situation in France is currently characterized by instability and uncertainty, marked by the persistent risk of National Assembly dissolution and the subsequent necessity of new legislative elections.
-Therefore, I choose to analyze the data of the previous egislative election of 2024. This projct adresses two core questions: 
+Therefore, I choose to analyze the data of the previous legislative election of 2024. This projct adresses two core questions: 
 - What was the overall voter turnout, and how does this rate vary across different departments?
 - To what extent are the rates of specific voting behaviors independent of the absolute size of the electoral body across all departments? 
 
@@ -11,7 +11,20 @@ Therefore, I choose to analyze the data of the previous egislative election of 2
 This data comes from the website data.gouv.fr. 
 Before conducting any analysis, I needed to clean the dataset because every variables representing proportions were stored as character strings instead of numerical values. These values also contained formatting elements like commas and percentage symbols, which prevented them from being interpreted as numbers. To make the data usable for statistical analysis, I replaced commas with decimal points and removed the percentage signs, and then converted the cleaned values into numeric format.
 
+# Analysis: 
+To answer the first question, I choose to focus my analysis on the turnout rate per department. I generated a boxplot that revealed several outliers. These extreme values were removed using the Interquartile Range method, and 9 outliers were excluded from a new dataset, including 8 (out of 10) overseas department and all the registered voters living outside of France. I choose not to remove the outliers from the original dataset because those values are observations and there are relevant for this project. 
+However to analyze the basics statistics of the turnout rate, I choose to remove the outliers. Following this cleaning step, I calculated the basic descriptive statistics with the function summary(). We can observed a minimum of 60.02% of voters, the 1st Quartile at 67.25, a median of 69.33%, a mean of 69.11%, the 3rd Quartile at 71.11, and a maximum of 77.11%.
+The boxplot representing the turnout rate shows a narrow IQR, which indicates that themajority of the departments had a turnout rate close to 69%. We can conclude that the turnout rate was very consitent across most departments, excluding some overseas departments. No conclusion can be done on the overseas department and their turnout rate because the department with the highest turnout (77%) is also an oversea department. 
+
+
+<img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/81ffb5a4-5137-4047-bf1a-2dcd008d22dd" />
+
+
+<img width="296" height="32" alt="image" src="https://github.com/user-attachments/assets/8087a3aa-94de-45fb-b6c4-4089213ed07d" />
+
+
 # Visualizations: 
+To answer the second question about the impact of the size of the lectorate body on the voting behaviors,  I did a first focus on the Parisian Region.
 This first visualization is an histogram representing the proportions of blank, invalid, and valid votes, as well as abstentions, among registered voters in each department of the Paris region. The departments are ranked in descending order of the number of registered voters to determine if there is a trend between the number of registered voters and the proportions of each type of vote.
 Unfortunately, we can not observed any trend in this visualization meaning the number of registered voters does not impact the proportions of each type of vote.
 
@@ -35,10 +48,4 @@ To adress the strong multocollinearity among the previous variables, I shifted t
 
 
 
-# Analysis: 
-I choose to focus my analysis on the number of voters per department. I generated a boxplot that revealed several outliers. These extreme values were removed using the Interquartile Range method, and 5 outliers were excluded from a new dataset. I choose not to remove the outliers from the original dataset because I am mostly using the proportions of type of vote in this project. 
-Following this cleaning step, I calculated the basic descriptive statistics with the function summary(). We can observed a minimum of 2,807 voters, the 1st Quartile at 126,954, a median of 234,442 voters, a mean of 275,364 voters, the 3rd Quartile at 377,312, and a maximum of 766,963 voters.
 
-<img width="949" height="416" alt="image" src="https://github.com/user-attachments/assets/1f24ba8a-0779-4beb-be45-e65a4cf47d40" />
-
-<img width="284" height="42" alt="image" src="https://github.com/user-attachments/assets/aa3c83dc-092e-4267-aab1-fbc250d323b5" />
