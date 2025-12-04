@@ -17,14 +17,21 @@ Unfortunately, we can not observed any trend in this visualization meaning the n
 
 <img width="1906" height="965" alt="image" src="https://github.com/user-attachments/assets/a1e39ab1-46b9-40d4-8f4a-208e1a67147e" />
 
+
 To verify what I observed in the Parisian region: the number of voters does not impact the proportion of each type of vote, I extended the analysis to the full national datset to verify whether this pattern holds. To do so, I created a scatter plot comparing the number of voters to the proportion of valid votes. 
 The visualization shows that the percentage of valid votes remains relatively stable regardless of the size of the electorate. This suggests that the number of registered voters does not have a notable influence on voting behavior in terms of valid participation.
 
 <img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/57614df6-b75e-4a49-9020-a28d6b929754" />
 
+
 To further explore the relationship between electoral participation variables, I created a scatterplot matrix comparing registered voters, actual voters, and valid votes. The strong positive linear patterns observed across all pairwise combinations indicate that these variables are highly correlated with one another. As a result, applying a multiple regression model with these variables as predictors would not be appropriate, since their strong interdependence would lead to multicollinearity issues. 
 
 <img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/ec3352f4-b464-4632-86c8-94579f5fe4ac" />
+
+
+To adress the strong multocollinearity among the previous variables, I shifted to proportional variables. The objective was to see if using proportions would remove the strong linear dependence observed previously. However, the resulting scatterplot matrix shows that the strong positive linear patterns are no longer present. Instead, the plots display a general lack of clear correlation between the proportional variables. In conclusion, the types of votes, as proportions, tend to vary independently of the electorate's size. 
+
+<img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/bd697fad-f1d9-4417-ae66-36c7a6294ea5" />
 
 
 
