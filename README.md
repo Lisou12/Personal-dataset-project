@@ -31,7 +31,7 @@ Unfortunately, we can not observed any trend in this visualization meaning the n
 <img width="1906" height="965" alt="image" src="https://github.com/user-attachments/assets/a1e39ab1-46b9-40d4-8f4a-208e1a67147e" />
 
 
-To verify what I observed in the Parisian region: the number of voters does not impact the proportion of each type of vote, I extended the analysis to the full national datset to verify whether this pattern holds. To do so, I created a scatter plot comparing the number of voters to the proportion of valid votes. 
+To verify what I observed in the Parisian region: the number of voters does not impact the proportion of each type of vote, I extended the analysis to the full national dataset to verify whether this pattern holds. To do so, I created a scatter plot comparing the number of voters to the proportion of valid votes. 
 The visualization shows that the percentage of valid votes remains relatively stable regardless of the size of the electorate. This suggests that the number of registered voters does not have a notable influence on voting behavior in terms of valid participation.
 
 <img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/57614df6-b75e-4a49-9020-a28d6b929754" />
@@ -42,7 +42,7 @@ To further explore the relationship between electoral participation variables, I
 <img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/313bdf5e-8468-4a3c-b5b6-f4f6fa00698d" />
 
 
-To adress the strong multocollinearity among the previous variables, I shifted to proportional variables. The objective was to see if using proportions would remove the strong linear dependence observed previously. However, the resulting scatterplot matrix shows that the strong positive linear patterns are no longer present. Instead, the plots display a general lack of clear correlation between the proportional variables. In conclusion, the types of votes, as proportions, tend to vary independently of the electorate's size. 
+To address the strong multocollinearity among the previous variables, I shifted to proportional variables. The objective was to see if using proportions would remove the strong linear dependence observed previously. The resulting scatterplot matrix shows that the strong positive linear patterns are no longer present. Instead, the plots display a general lack of clear correlation between the proportional variables. In conclusion, the types of votes, as proportions, tend to vary independently of the electorate's size. 
 
 <img width="700" height="432" alt="image" src="https://github.com/user-attachments/assets/af196147-aa4e-45e4-b13b-c98b0be9f4ab" />
 
