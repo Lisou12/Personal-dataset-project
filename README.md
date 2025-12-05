@@ -3,7 +3,7 @@ This project is on the voting data of the last French legislative elections, in 
 
 # Motivation
 The political situation in France is currently characterized by instability and uncertainty, marked by the persistent risk of National Assembly dissolution and the subsequent necessity of new legislative elections.
-Therefore, I choose to analyze the data of the previous legislative election of 2024. This projct adresses two core questions: 
+Therefore, I choose to analyze the data of the previous legislative election of 2024. This project adresses two core questions: 
 - What was the overall voter turnout, and how does this rate vary across different departments?
 - To what extent are the rates of specific voting behaviors independent of the absolute size of the electoral body across all departments? 
 
